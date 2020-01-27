@@ -21,4 +21,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* To activate authentication, uncomment line 3 in app/controllers/article_controllers.rb (#http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show])
+
+* To activate authentication, uncomment line 2 in app/controllers/comments_controllers.rb (https://guides.rubyonrails.org/getting_started.html)
