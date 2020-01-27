@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-https://guides.rubyonrails.org/getting_started.html
+# https://guides.rubyonrails.org/getting_started.html
 
   def create
     @article = Article.find(params[:article_id])
